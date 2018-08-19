@@ -188,3 +188,57 @@ footer {
     border-top: 1px solid black;
     border-bottom: 1px solid black
 }
+
+@media screen and (max-width: 980px) {
+    body {
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    header {
+        width: 768px;
+    }
+    nav {
+        width: 384px;
+    }
+    h1 {
+        margin-left: 80px;
+    }
+    #main {
+        width: 768px;
+    }
+    #h2offset {
+        width: 528px;
+    }
+    input {
+        width: 714px;
+    }
+    #messageBox {
+        width: 724px;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    header {
+      position: static;
+      width: 640px;
+    }
+    nav {
+        width: 298px;
+    }
+    h1 {
+        margin-left: 40px;
+    }
+    #main {
+        width: 640px;
+    }
+    #h2offset {
+        width: 400px;
+    }
+    input {
+        width: 586px;
+    }
+    #messageBox {
+        width: 596px;
+    }
+  }
